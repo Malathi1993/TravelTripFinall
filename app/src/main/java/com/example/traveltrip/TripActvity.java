@@ -8,7 +8,7 @@ import android.widget.ListView;
 public class TripActvity extends AppCompatActivity {
     ListView listView;
     String[] name = {
-            "malathi", "rajesh", "sanjana", "rakesh"
+            "Mahesh", "Rajesh", "Sathish", "Rakesh"
     };
     String[] time1 = {
             "5:00 PM  Hyderabad", "5:00 PM  Hyderabad", "5:00 PM  Hyderabad", "5:00 PM  Hyderabad"
@@ -35,7 +35,7 @@ public class TripActvity extends AppCompatActivity {
             "distance", "distance", "distance", "distance"
     };
     Integer[] img = {
-            R.drawable.circle_shape, R.drawable.circle_shape, R.drawable.circle_shape, R.drawable.circle_shape,
+            R.drawable.male, R.drawable.male, R.drawable.male, R.drawable.male,
     };
 
     @Override
