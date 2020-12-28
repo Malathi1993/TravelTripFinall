@@ -3,13 +3,16 @@ package com.example.traveltrip;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.WindowManager;
 import android.widget.ListView;
 
 public class TripActvity extends AppCompatActivity {
     ListView listView;
+
     String[] name = {
             "Mahesh", "Rajesh", "Sathish", "Rakesh"
     };
+
     String[] time1 = {
             "5:00 PM  Hyderabad", "5:00 PM  Hyderabad", "5:00 PM  Hyderabad", "5:00 PM  Hyderabad"
     };
@@ -45,5 +48,14 @@ public class TripActvity extends AppCompatActivity {
         listView=findViewById(R.id.list_item);
         CustomAdapter customAdapter=new CustomAdapter(this,name,time1,time2,text1,text2,text3,text4,text5,text6,img);
         listView.setAdapter(customAdapter);
+// Back Arrow
+//        getSupportActionBar().setTitle("TripActvity");
+//        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+//        // stutus bar
+//        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
+//                WindowManager.LayoutParams.FLAG_FULLSCREEN);
+
+
     }
 }
