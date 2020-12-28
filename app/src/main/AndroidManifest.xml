@@ -14,6 +14,7 @@
         <activity
             android:name=".SearchTripActivity"
             android:label="SearchTrip"
+            android:parentActivityName=".MainActivity"
             android:theme="@style/Theme.SearchTrip"></activity>
         <activity android:name=".MainActivity">
             <intent-filter>
