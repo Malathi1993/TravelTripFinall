@@ -9,13 +9,20 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TravelTrip">
-        <activity android:name=".TripActvity"
-            android:parentActivityName=".MainActivity"></activity>
+        <activity android:name=".DetailsActivity">
+
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="loginActivity"></activity>
+        <activity
+            android:name=".TripActvity"
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".SearchTripActivity"
             android:label="SearchTrip"
             android:parentActivityName=".MainActivity"
-            android:theme="@style/Theme.SearchTrip"></activity>
+            android:theme="@style/Theme.SearchTrip" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

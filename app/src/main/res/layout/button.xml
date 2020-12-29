@@ -11,7 +11,7 @@
         android:layout_width="212dp"
         android:layout_height="45dp"
         android:layout_marginTop="264dp"
-        android:background="@drawable/shape_bg_color"
+        android:background="@drawable/bg_white"
         android:gravity="center"
         android:text="Submit"
         android:textColor="@color/white"

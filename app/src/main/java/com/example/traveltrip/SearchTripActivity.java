@@ -4,8 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
 import android.app.ActionBar;
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.view.WindowManager;
+import android.widget.Button;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
 
@@ -14,6 +17,7 @@ import java.util.HashMap;
 import java.util.List;
 
 public class SearchTripActivity extends AppCompatActivity {
+    //Button View;
 
     // Array of strings for ListView Title
     String[] listviewTitle = new String[]{
@@ -34,6 +38,18 @@ public class SearchTripActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_search_trip);
+
+//        View = findViewById(R.id.view);
+//        // onclickListner
+//        View.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(android.view.View view) {
+//                Intent intent = new  Intent(SearchTripActivity.this, LoginActivity.class);
+//                startActivity(intent);
+//
+//            }
+//        });
+
         // status bar hide
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
