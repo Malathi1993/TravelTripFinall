@@ -9,12 +9,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TravelTrip">
+        <activity android:name=".SignupActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity android:name=".DetailsActivity">
 
         </activity>
         <activity
             android:name=".LoginActivity"
-            android:label="loginActivity"></activity>
+            android:label="loginActivity" />
         <activity
             android:name=".TripActvity"
             android:parentActivityName=".MainActivity" />
@@ -23,13 +30,7 @@
             android:label="SearchTrip"
             android:parentActivityName=".MainActivity"
             android:theme="@style/Theme.SearchTrip" />
-        <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        <activity android:name=".MainActivity"></activity>
     </application>
 
 </manifest>
