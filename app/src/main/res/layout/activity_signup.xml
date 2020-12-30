@@ -36,8 +36,10 @@
 
     <LinearLayout
         android:id="@+id/linearLayout3"
-        android:layout_width="357dp"
-        android:layout_height="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
         android:layout_marginTop="4dp"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
@@ -65,8 +67,10 @@
 
     <LinearLayout
         android:id="@+id/linearLayout4"
-        android:layout_width="358dp"
-        android:layout_height="53dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -96,8 +100,10 @@
 
     <TextView
         android:id="@+id/textView23"
-        android:layout_width="360dp"
-        android:layout_height="51dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
         android:padding="10dp"
         android:text="Mobile Number"
         android:textSize="18dp"
@@ -108,8 +114,10 @@
 
     <EditText
         android:id="@+id/editTextTextPersonName9"
-        android:layout_width="360dp"
+        android:layout_width="match_parent"
         android:layout_height="50dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
         android:ems="10"
         android:hint="Mobile Number"
         android:inputType="textPersonName"
@@ -121,8 +129,10 @@
 
     <TextView
         android:id="@+id/textView24"
-        android:layout_width="360dp"
+        android:layout_width="match_parent"
         android:layout_height="50dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
         android:padding="10dp"
         android:text="Email_Id"
         android:textSize="18dp"
@@ -133,8 +143,10 @@
 
     <EditText
         android:id="@+id/editTextTextPersonName10"
-        android:layout_width="360dp"
+        android:layout_width="match_parent"
         android:layout_height="50dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
         android:ems="10"
         android:hint="Email_Id"
         android:inputType="textPersonName"
@@ -147,8 +159,10 @@
 
     <TextView
         android:id="@+id/textView25"
-        android:layout_width="360dp"
+        android:layout_width="match_parent"
         android:layout_height="50dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
         android:padding="10dp"
         android:text="Password"
         android:textSize="18dp"
@@ -159,8 +173,10 @@
 
     <EditText
         android:id="@+id/editTextTextPersonName11"
-        android:layout_width="360dp"
+        android:layout_width="match_parent"
         android:layout_height="50dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
         android:layout_marginTop="4dp"
         android:ems="10"
         android:hint="Password                                       Show"
@@ -173,8 +189,10 @@
 
     <CheckBox
         android:id="@+id/checkBox"
-        android:layout_width="344dp"
-        android:layout_height="44dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
         android:text="I want to be a Captain"
         android:textAllCaps="false"
         android:textSize="18dp"
@@ -185,10 +203,13 @@
 
     <Button
         android:id="@+id/signup"
-        android:layout_width="352dp"
-        android:layout_height="51dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
         android:layout_marginTop="2dp"
         android:text="Signup"
+        android:background="@drawable/shape_corners"
         android:textAllCaps="false"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.463"

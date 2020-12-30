@@ -9,20 +9,25 @@
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="300dp"
+        android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:layout_marginTop="148dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="180dp"
+        android:padding="5dp"
         android:text="Email/Mobile Number "
         android:textSize="20dp"
-       android:padding="5dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/editTextTextPersonName4"
-        android:layout_width="300dp"
+        android:layout_width="match_parent"
         android:layout_height="50dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
         android:ems="10"
         android:hint="Email/Mobile Number"
         android:padding="5dp"
@@ -36,8 +41,10 @@
 
     <TextView
         android:id="@+id/textView9"
-        android:layout_width="300dp"
+        android:layout_width="match_parent"
         android:layout_height="50dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
         android:layout_marginTop="4dp"
         android:text="Password"
         android:textSize="20dp"
@@ -48,8 +55,10 @@
 
     <EditText
         android:id="@+id/editTextTextPersonName5"
-        android:layout_width="300dp"
+        android:layout_width="match_parent"
         android:layout_height="50dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
         android:ems="10"
         android:hint="Password"
         android:inputType="textPersonName"
@@ -62,18 +71,23 @@
 
     <Button
         android:id="@+id/login"
-        android:layout_width="300dp"
+        android:layout_width="match_parent"
         android:layout_height="50dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
         android:text="Login"
         android:textSize="20dp"
+        android:background="@drawable/shape_corners"
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName5" />
 
     <LinearLayout
-        android:layout_width="300dp"
-        android:layout_height="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -84,18 +98,16 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:textSize="17dp"
-            android:text="Forgot Password?" />
+            android:text="Forgot Password?"
+            android:textSize="17dp" />
 
         <TextView
             android:id="@+id/textView11"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:layout_marginLeft="20dp"
-            android:textSize="17dp"
-            android:text="NewUser?" />
+            android:layout_weight="1"
+            android:text="NewUser?"
+            android:textSize="17dp" />
     </LinearLayout>
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>
